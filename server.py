@@ -1,7 +1,4 @@
-# Corso di Programmazione di Reti - Laboratorio - Università di Bologna
-# Socket_Programming_Assignment - WebServer - Versione migliorata
-# Combina robustezza e semplicità
-
+#Andrea Fronzi 0001124773
 import sys
 import os
 from socket import *
