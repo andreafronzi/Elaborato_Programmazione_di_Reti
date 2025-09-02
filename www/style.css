@@ -55,6 +55,12 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   width: 250px;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* transizione fluida */
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05); /* si solleva e ingrandisce leggermente */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);   /* ombra più evidente */
 }
 
 .card img {
