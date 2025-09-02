@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff8f0;
+  color: #333;
+}
+
+/* Header e nav */
+header {
+  background: #d2691e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff8f0;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Prodotti */
+.prodotti {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;   /* l'immagine non supera mai la larghezza della card */
+  height: auto;      /* mantiene le proporzioni */
+  border-radius: 0.5rem; /* angoli leggermente arrotondati */
+  margin-top: 1rem;  /* spazio sopra l'immagine */
+}
+
+/* Form contatti */
+.contatti-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contatti-form input,
+.contatti-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.contatti-form button {
+  background: #d2691e;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.contatti-form button:hover {
+  background: #a0522d;
+}
+
+/* Footer */
+footer {
+  background: #f4e1d2;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
